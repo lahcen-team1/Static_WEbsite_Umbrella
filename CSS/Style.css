@@ -1,0 +1,502 @@
+
+
+
+
+/* THIS WILL APPLY TO ALL OF THE HTML DOCUMENT !   */
+
+/* --------------COLOR PALET---------------- */
+
+/* WHITE: #BABABA */
+/* RED : #8D2121 */
+/* BLACK : #000000 */
+/* darkgrey */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+    body{
+    font-family: 'PT Serif', serif;
+    background-color: darkgrey;
+ 
+    }
+
+
+
+    
+    /* -------------NAV---------------- */
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        background-color: #000000 ;
+  
+          
+    }
+
+    .ul{
+        font-size: large;
+        font-weight: bolder;
+    }
+
+
+
+    .navhover:hover{
+        color: darkgrey;
+    }
+    
+
+    nav{
+        flex: 1;
+        text-align: right;
+        font-size: smaller;
+        
+    }
+ 
+    nav ul {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin-right: 15px;
+        margin: 10px;
+    }
+
+  
+
+    /* -----------------------texts------------------------------ */
+    
+    .hr2{
+        border: none;
+        height: 2px;
+        background-color: #000000 ;
+        
+
+    }
+   
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    
+
+    p{
+        color: #000000 ;
+    }
+
+    .p2{
+        color: #000000 ; 
+        font-weight: bolder;
+        text-align: left;
+
+    }
+
+
+        
+    .p3{
+        font-weight: lighter;
+    }
+
+    .p4{
+        font-weight: bolder;
+        color: red;
+        text-align: left;
+       
+    }
+
+    .p5{
+        color: #000000 ;
+        font-weight: bolder;
+        text-align: left;
+        text-decoration: line-through;
+    }
+
+    .subtitle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+  /* -----------------CONTAINERS AND ROWS------------------- */
+    .container{
+       /*  max-width: 1600px; */
+        margin: auto;
+       /*  padding-left: 25px;
+        padding-right: 25px; */
+    }
+    
+    
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-right: 14px;
+        margin-left: 15px;
+    }
+    
+    .col-2{
+        flex-basis: 50%;
+        min-width: 300px;
+    
+    }
+
+    .col-2 p{
+    font-size: larger;
+    font-weight: bolder;
+   
+    }
+    
+    .col-2 img{
+        float: right;
+        max-width: 100%;
+        padding: 50px ;
+
+    
+    }
+    
+    .col-2 h1{
+        font-weight: bolder;
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+
+   
+    
+    /* -------------header----------------- */
+     .header{
+        background-color:  #BABABA ;
+        
+    } 
+
+   
+    
+   
+    .header .row{
+        margin-top: 70px;
+    }
+    
+    /* ----------------more containers--------------------- */
+    .small-container{
+        max-width: 1600px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+    }
+
+    .box1{
+        width:300px;
+            
+    }
+
+
+    .box2{
+        height: 80px;
+        width: 300px;
+    }
+
+    .box-container{
+        text-align: left;
+    }
+    
+    
+    .col-4{
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+   
+    }
+    
+    .email{
+        font-weight: bold;
+        text-decoration: underline;
+        
+    }
+   
+    .col-4 img{
+    
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        transition: transform 0.5s;
+    
+    }
+
+    .col-4 img:hover{
+        transform: translateY(-5px);
+        transform: scale(1.05);
+
+    }
+
+    
+    .more{
+        text-align: center;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    
+    .p0{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+   
+    .title{
+    
+        text-align: center;
+        margin: 0 auto 0px;
+        position: relative;
+        line-height: 60px;
+        color: black;
+        padding-top: 40px;
+
+        
+    }
+    
+    
+    h4{
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    
+    
+   
+    /* -------------------------footer---------------- */
+   
+    .footer{
+        background: #8D2121  ;
+        color: whitesmoke;
+        font-size: 14px;
+        padding: 60px 0 20px;
+    }
+   
+    .footer p{
+        color: whitesmoke;
+    }
+ 
+    .footer h3{
+        color:whitesmoke;
+        margin-bottom: 20px;
+        
+    }
+  
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+  
+    .footer-col-1{
+        flex-basis: 30%;
+        text-align: center;
+    }
+
+    
+    
+    .footer-col-2{
+        flex: 1;
+        text-align: center;
+    }
+    
+    .footer-col-2 img{
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    
+ 
+    .footer-col-3, .footer-col-4{
+        flex-basis: 12%;
+        text-align: center;
+    
+    }
+   
+    ul{
+        list-style-type: none;
+    }
+    
+    .footer hr {
+    
+        background: #C62B29 ;
+        height: 1px;
+        margin: 20px 0;
+    
+    }
+   
+    .copyright{
+        text-align: center;
+    }
+/* bouton au bas de la page */
+    
+    .bouton span{
+        
+        display: inline-block;
+        font-weight: bolder;
+        border: 2px solid black;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+       
+    }
+
+    .bouton:hover span:hover{
+        background-color: #8D2121;
+        color: black;
+    }
+
+/* ----------------------------------------- */
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+   
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+   
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: solid 1px black;
+  }
+   
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+   
+.dropdown-content a:hover {background-color:   darkgray;} 
+   
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  /* ------------Military------------------ */
+
+  .alert{
+    background-color: rgb(73, 73, 73);
+    font-family: 'PT Serif', serif;
+}
+
+
+.test{
+
+    text-align: center;
+
+
+}
+
+
+
+.h2{
+    padding-bottom: 25px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+
+.h4{
+    padding-bottom: 25px;
+
+}
+
+
+
+.Proceed{
+
+
+    background-color:  black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+   
+
+}
+
+.Return{
+
+    background-color:  black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+
+
+}
+
+.Proceed:hover{
+
+    transform: translateY(-5px);
+    color: rgb(142, 223, 22);
+
+}
+
+.Return:hover{
+
+    transform: translateY(-5px);
+    color: red;
+}
+
+.warning{
+    color: red;
+    font-size: x-large;
+
+}
+
+.symbol{
+
+    color: rgb(245, 245, 29);
+    font-size: xx-large;
+    
+}
+
+button{
+
+    width: 100px;
+}
